@@ -7,6 +7,7 @@ import static org.assertj.core.api.Assertions.*;
 public class XmlAppContext {
     @Test
     void xmlAppContext() {
+
         ApplicationContext ac = new
                 GenericXmlApplicationContext("appConfig.xml");
 
